@@ -6,8 +6,8 @@
 
     <meta charset = "utf-8" /> 
 
-    <link href = "navigation.css" rel="stylesheet" type="text/css" /> 
-
+    <link href = "css/navigation.css" rel="stylesheet" type="text/css" /> 
+    <link href = "css/slider.css" rel="stylesheet" type="text/css" />
 </head> 
 
 <body> 
@@ -58,8 +58,18 @@
 
       magna cursus in. Vestibulum eu consectetur magna. 
 
-      </p> 
-
+      </p>
+      <div class="div-content">
+        <img class="mySlides" src="img/image1.jpg" alt="image 1" style="width: 100%;">
+        <img class="mySlides" src="img/image2.jpg" alt="image 2" style="width: 100%;">
+        <img class="mySlides" src="img/image3.jpg" alt="image 3" style="width: 100%;">
+        <img class="mySlides" src="img/image4.jpg" alt="image 4" style="width: 100%;">
+        <img class="mySlides" src="img/image5.jpg" alt="image 5" style="width: 100%;">
+        <button class="slider-button display-left" onclick="changeImage(-1)">&#129076;</button>
+        <button class="slider-button display-right" onclick="changeImage(1)">&#129078;</button>
+      </div>
+      <script src="jss/domjs.js"></script>
+      
       <p> 
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id 
